@@ -118,11 +118,12 @@ Once you have the script installed, you can run it by executing the Python file 
 
 Running the Script:
 
+```bash
 python3 TEHTEE.py
 
 When the script starts, you'll be presented with the following menu:
 
-Choose a tool to run:
+## Choose a tool to run:
 1. Web Application Firewall (WAF) Bypass Tester
 2. XSS Vulnerability Scanner
 3. Web Directory Brute Forcer
