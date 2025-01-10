@@ -1,3 +1,5 @@
+Here is the updated README.md file with the image centered at the top, GitHub details included, and a stylish presentation of the full tutorial:
+
 # Web Application Security Tools - Penetration Testing
 
 <p align="center">
@@ -89,3 +91,102 @@ This tool is designed to detect Blind SQL Injection vulnerabilities using time-b
 
 Features:
 
+Tries time-based SQL injection payloads to check if the server delays responses based on the injected queries.
+
+
+Open Redirect Detector
+
+This tool detects Open Redirect vulnerabilities by injecting potential redirect URLs into parameters.
+
+Features:
+
+Tests if an application redirects users to malicious external websites.
+
+
+URL Shortener Resolver
+
+This tool resolves shortened URLs to their destination, helping to identify potential redirects to malicious websites.
+
+Features:
+
+Resolves shortened URLs and checks for open redirects.
+
+
+Usage
+
+Once you have the script installed, you can run it by executing the Python file in your terminal.
+
+Running the Script:
+
+python3 TEHTEE.py
+
+When the script starts, you'll be presented with the following menu:
+
+Choose a tool to run:
+1. Web Application Firewall (WAF) Bypass Tester
+2. XSS Vulnerability Scanner
+3. Web Directory Brute Forcer
+4. Blind SQL Injection Tester (Time-Based)
+5. Open Redirect Detector
+6. URL Shortener Resolver
+0. Exit
+
+Select a Tool:
+
+Enter the number of the tool you want to run.
+
+For each tool, the script will ask you to enter the target URL or any relevant input needed for the attack.
+
+
+Example:
+
+Enter the URL to test for XSS: http://example.com
+
+The script will then attempt to find vulnerabilities based on the selected tool.
+
+Example of How to Use
+
+$ python3 TEHTEE.py
+
+Choose a tool to run:
+1. Web Application Firewall (WAF) Bypass Tester
+2. XSS Vulnerability Scanner
+3. Web Directory Brute Forcer
+4. Blind SQL Injection Tester (Time-Based)
+5. Open Redirect Detector
+6. URL Shortener Resolver
+0. Exit
+> 2  # XSS Vulnerability Scanner
+
+Enter the URL to test for XSS: http://example.com
+Testing for XSS vulnerabilities on http://example.com...
+
+[INFO] Testing for reflected XSS...
+[INFO] Testing for stored XSS...
+[INFO] Testing for DOM-based XSS...
+
+Important Notes:
+
+Ensure that you have explicit permission to test the website or web application.
+
+These tools are designed for educational purposes and should only be used in a legal and ethical manner.
+
+The script is not foolproof and might not catch all vulnerabilities, so it should be used alongside other security tools.
+
+
+Disclaimer
+
+TEAM ANONYMOUS INDIA and contributors are not responsible for any misuse of this tool. Use these tools responsibly and ensure you have proper authorization before testing any website or web application. Unauthorized access to computer systems is illegal and unethical.
+
+By using these tools, you agree to follow all applicable laws and regulations.
+
+GitHub Repository
+
+You can find the source code and further updates at our official GitHub repository:
+
+TEHTEE - Web Application Security Tools
+
+
+---
+
+Made by TEAM ANONYMOUS INDIA
