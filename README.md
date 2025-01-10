@@ -41,6 +41,7 @@ To use these tools, follow these steps:
    ```bash
    git clone https://github.com/TEAM-ANONYMOUS-INDIA/TEHTEE.git
    cd TEHTEE
+   python3 TEHTEE.py
 
 2. Install the required dependencies:
 
@@ -89,7 +90,7 @@ Blind SQL Injection Tester (Time-Based)
 
 This tool is designed to detect Blind SQL Injection vulnerabilities using time-based payloads.
 
-Features:
+### Features:
 
 Tries time-based SQL injection payloads to check if the server delays responses based on the injected queries.
 
@@ -98,7 +99,7 @@ Open Redirect Detector
 
 This tool detects Open Redirect vulnerabilities by injecting potential redirect URLs into parameters.
 
-Features:
+### Features:
 
 Tests if an application redirects users to malicious external websites.
 
@@ -107,20 +108,18 @@ URL Shortener Resolver
 
 This tool resolves shortened URLs to their destination, helping to identify potential redirects to malicious websites.
 
-Features:
+### Features:
 
 Resolves shortened URLs and checks for open redirects.
 
 
-Usage
+# Usage
 
 Once you have the script installed, you can run it by executing the Python file in your terminal.
 
 Running the Script:
 
-```bash
-python3 TEHTEE.py
-
+#### python3 TEHTEE.py
 
 When the script starts, you'll be presented with the following menu:
 
@@ -140,7 +139,7 @@ Enter the number of the tool you want to run.
 For each tool, the script will ask you to enter the target URL or any relevant input needed for the attack.
 
 
-Example:
+# Example:
 
 Enter the URL to test for XSS: http://example.com
 
@@ -148,7 +147,7 @@ The script will then attempt to find vulnerabilities based on the selected tool.
 
 Example of How to Use
 
-$ python3 TEHTEE.py
+### $ python3 TEHTEE.py
 
 Choose a tool to run:
 1. Web Application Firewall (WAF) Bypass Tester
@@ -176,7 +175,7 @@ These tools are designed for educational purposes and should only be used in a l
 The script is not foolproof and might not catch all vulnerabilities, so it should be used alongside other security tools.
 
 
-Disclaimer
+#### Disclaimer
 
 TEAM ANONYMOUS INDIA and contributors are not responsible for any misuse of this tool. Use these tools responsibly and ensure you have proper authorization before testing any website or web application. Unauthorized access to computer systems is illegal and unethical.
 
